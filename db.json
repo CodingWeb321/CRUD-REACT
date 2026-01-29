@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": "98ea",
+      "title": "first",
+      "body": "first post is done for testing"
+    },
+    {
+      "id": "a747",
+      "title": "second ",
+      "body": "second testing "
+    }
+  ]
+}
