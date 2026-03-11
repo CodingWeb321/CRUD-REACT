@@ -4,6 +4,8 @@ import Form from "./Form";
 
 function App() {
   const [post, setPost] = useState([]);
+  console.log(post);
+  
   const[editingPost, setEditingPost] =useState(null);
   // console.log("Current state of posts:", post);
   // console.log(editingPost);
@@ -54,7 +56,7 @@ const updatePost = async(id,updatedData)=>{
 
      
   const response = await fetch(`${URL}/${id}`,{
-    method:"PATCH",
+    method:"PUT",
     headers:{'Content-Type':'application/json'},
     body:JSON.stringify(updatedData)
   })

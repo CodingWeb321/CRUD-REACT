@@ -9,6 +9,7 @@ function Form({ onAddPost,onEditPost,onUpdatePost }) {
 
   useEffect(()=>{
     if(onEditPost){
+      
       setFormData({
         title:onEditPost.title || " ",
         body:onEditPost.body|| " " 
